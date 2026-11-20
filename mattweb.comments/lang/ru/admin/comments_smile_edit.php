@@ -1,0 +1,27 @@
+<?php
+$MESS['COMMENTS_SMILE_ADMIN_COMMENT_TITLE'] = "Смайлы";
+$MESS['COMMENTS_SMILE_ADD_TITLE'] = "Добавление нового смайла";
+$MESS['COMMENTS_SMILE_EDIT_TITLE'] = "Редактирование смайла ID=#ID#";
+$MESS['COMMENTS_SMILE_ADMIN_ROWS_RETURN_TO_LIST_BUTTON'] = "Перейти в список смайлов";
+$MESS[''] = "";
+$MESS['COMMENTS_FLT_ALL'] = "(все)";
+$MESS['COMMENTS_SMILE_YES_NO_YES'] = "Да";
+$MESS['COMMENTS_SMILE_YES_NO_NO'] = "Нет";
+$MESS['COMMENTS_SMILE_ENTITY_ELEM_CODE'] = "ШортКод смайла";
+$MESS['COMMENTS_SMILE_ENTITY_ELEM_IMAGE'] = "Иконка";
+$MESS['COMMENTS_SMILE_ENTITY_ELEM_NAME'] = "Название";
+$MESS['COMMENTS_SMILE_ENTITY_ELEM_PUBLISHED'] = "Опубликовано";
+$MESS['COMMENTS_SMILE_ENTITY_ELEM_ORDERING'] = "Сортировка";
+$MESS['COMMENTS_SMILE_ENTITY_ELEM_TYPE'] = "Тип смайла (коллекция)";
+$MESS['FILE_ERR_SAVE_ERROR'] = "Не удалось сохранить файл";
+$MESS['FILE_ERR_UPLOAD_ERROR'] = "Ошибка загрузки: #FILE_UPLOAD_ERR_TXT#";
+$MESS['FILE_ERR_LARGE_SIZE'] = "Можно загружать только изображения размером меньше 100 Кб";
+$MESS['FILE_ERR_TYPE_NOT_ALLOWED'] = "Тип файла не поддерживается. Можно загружать только изображения gif и png";
+$MESS[''] = "";
+$MESS[''] = "";
+$MESS[''] = "";
+$MESS[''] = "";
+$MESS[''] = "";
+$MESS[''] = "";
+$MESS[''] = "";
+$MESS[''] = "";

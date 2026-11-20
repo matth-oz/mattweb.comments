@@ -1,0 +1,28 @@
+<?
+$MESS['COMMENTS_VOTES_GROUPED_TITLE'] = "Сводная таблица голосования";
+$MESS['COMMENT_VOTE_ENTITY_ID'] = "ID комментария";
+$MESS['COMMENT_VOTE_COMMENT_ELEM_ENTITY_ID'] = "Коментарий";
+$MESS['COMMENT_ENTITY_ELEM_NAME'] = "Название статьи";
+$MESS['COMMENT_VOTE_VOTES_COUNT'] = "Количество голосов";
+$MESS['COMMENT_ALL_VOTES_DELETE'] = "Удалить все голоса";
+$MESS['COMMENT_ALL_VOTES_DELETE_CONFIRM'] = "Вы уверены, что хотите удалить все голоса у комментария";
+$MESS['COMMENTS_VOTES_LIST_TITLE'] = "Список голосов за комментарии";
+$MESS['COMMENT_ALL_VOTES_DETAIL'] = "Подробнее";
+$MESS['COMMENT_ALL_VOTES_DELETED'] = "Удалены голоса у комментария ID=#COMM_ID#";
+$MESS[''] = "";
+$MESS[''] = "";
+$MESS[''] = "";
+$MESS[''] = "";
+$MESS[''] = "";
+$MESS[''] = "";
+$MESS[''] = "";
+$MESS[''] = "";
+$MESS[''] = "";
+$MESS[''] = "";
+$MESS[''] = "";
+$MESS[''] = "";
+$MESS[''] = "";
+$MESS[''] = "";
+$MESS[''] = "";
+$MESS[''] = "";
+$MESS[''] = "";

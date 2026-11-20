@@ -1,0 +1,35 @@
+.inst-step-wrap{
+    padding: 1em;
+    background: #d1e0e6;
+    border-radius: 10px;
+}
+
+.option-wrap{
+    display: flex;
+    margin-bottom: 1em;
+}
+
+.option-wrap-inner {
+    display: inline-flex;
+    align-self: center;
+}
+
+.option-wrap-inner:first-child {
+    width: 21%;
+}
+
+.option-wrap-inner:last-child {
+    padding-left: .5em;
+}
+
+.inp-chk{
+    justify-content: right;
+}
+
+.option-wrap-inner input, .option-wrap-inner select{
+    width: 180px;
+} 
+
+.option-wrap-inner input[type=checkbox]{
+    width: auto;
+}

@@ -1,0 +1,444 @@
+/*bootstrap*/
+.d-flex {
+    display: -ms-flexbox!important;
+    display: flex!important
+}
+
+.comment_area ol{
+	padding-left: 0;
+}
+
+.comment_area ol li{
+	list-style: none;
+}
+
+/*bootstrap*/
+
+.dn{
+	display: none;
+}
+
+.zero-comments{
+	font-style: italic;
+}
+
+.add-comment-wrap.top{
+	margin-bottom: 30px;
+}
+
+.add-comment-wrap.top h2{
+	font-size: 1.6rem;
+}
+
+.headline{
+	font-size: .9rem;
+}
+
+.add-comment-wrap.bottom{
+	margin-top: 30px;
+}
+
+div.arts-detail .comment_area ol{
+	margin-left: 0;
+}
+
+/*Comments List*/
+div.arts-detail .comment_area li{
+	list-style-type: none;
+}
+
+div.arts-detail .comment_area li p{
+	font-size: .9rem;
+}
+
+div.arts-detail .comment_area li .code{
+	font-size: 1em;
+}
+
+/*Like - dislike*/
+.comment-content span.code{
+	font-family: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+	color: #696;
+	font-size: 1em;
+}
+.comment_area .single_comment_area .comment-wrapper .comment-content a{
+	text-decoration: none;
+}
+
+.comment_area .single_comment_area .comment-wrapper .comment-content a.comm-like{
+	color: #087632;
+	text-decoration: none;
+}
+
+.comment_area .single_comment_area .comment-wrapper .comment-content a.comm-dislike{
+	color: #c40f0f;
+	text-decoration: none;
+}
+
+.comment_area .single_comment_area .comment-wrapper .comment-content a.comm-like.vote-disabled,
+.comment_area .single_comment_area .comment-wrapper .comment-content a.comm-dislike.vote-disabled{
+	background: #ebebeb;
+	cursor: default;
+}
+
+.comment_area .single_comment_area .comment-wrapper .comment-content a.comm-like.vote-disabled:hover,
+.comment_area .single_comment_area .comment-wrapper .comment-content a.comm-dislike.vote-disabled:hover{
+	background: #ebebeb;
+	border-color:#ebebeb;
+}
+
+.comment_area .single_comment_area .comment-wrapper .comment-content a.comm-like.vote-disabled:hover{
+	color: #087632;
+}
+.comment_area .single_comment_area .comment-wrapper .comment-content a.comm-dislike.vote-disabled:hover{
+	color: #c40f0f;
+}
+
+.comment_area .single_comment_area .comment-wrapper .comment-content a.comm-like.vote-disabled.active,
+.comment_area .single_comment_area .comment-wrapper .comment-content a.comm-like.vote-disabled.active:hover{
+	background: #bde9ce;
+}
+
+.comment_area .single_comment_area .comment-wrapper .comment-content a.comm-dislike.vote-disabled.active,
+.comment_area .single_comment_area .comment-wrapper .comment-content a.comm-dislike.vote-disabled.active:hover{
+	background: #f3d5d5;
+}
+
+/*Quote*/
+.quote-wrap{
+    border: 1px solid #ebebeb;
+    padding: 0.5rem;
+    font-size: .75rem;
+    font-style: italic;
+    background: #f1f1f1;
+    border-radius: 5px;
+}
+
+.qc-author{
+	display: block;
+	font-weight: bold;
+}
+
+/*Comment Link*/
+.comment_area .single_comment_area .comment-wrapper .comment-content a.comment-link{
+	border: none;
+	color: #999;
+}
+
+.comment_area .single_comment_area .comment-wrapper .comment-content a.comment-link:hover{
+	background: none;
+	color: #d1bb95;
+}
+
+.comment_area .single_comment_area .comment-wrapper .comment-content a.comment-share-link{
+	border: none;
+	float: right;
+	color: #999;
+}
+
+.comment_area .single_comment_area .comment-wrapper .comment-content a.comment-share-link:hover{
+	background: none;
+	color: #d1bb95;
+}
+
+.smiles-block{
+	margin-bottom: .8rem;
+}
+
+.err-mwc-mess{
+    color: #c40f0f;
+}
+
+/* :: 12.0 Comment Area */
+.add-comment-wrap .add-comment-btn {
+    min-width: 180px;
+    height: 40px;
+    border: 1px solid #ebebeb;
+    line-height: 40px;
+    font-size: 12px;
+    text-align: center;
+    color: #191919;
+    display: inline-block;
+}
+.add-comment-wrap .add-comment-btn:hover {
+    border-color: #191919;
+    color: #ffffff;
+    background-color: #191919;
+}
+
+.comment_area {
+    position: relative;
+    z-index: 1;
+    padding: 30px 0;
+    border-top: 1px solid #ebebeb;
+    border-bottom: 1px solid #ebebeb;
+}
+.comment_area .headline {
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+.comment_area .single_comment_area {
+    position: relative;
+    z-index: 1;
+}
+.comment_area .single_comment_area::after {
+    position: absolute;
+    width: 1px;
+    height: 95%;
+    background-color: #ebebeb;
+    left: 20px;
+    top: 0;
+    z-index: 2;
+    content: "";
+}
+@media only screen and (max-width:767px) {
+    .comment_area .single_comment_area::after {
+        display: none;
+    }
+}
+.comment_area .single_comment_area .add-comment-wrap {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.comment_area .single_comment_area .add-comment-wrap h4 {
+    line-height: 1.5em;
+}
+.comment_area .single_comment_area .add-comment-wrap .headline {
+    margin-bottom: 0;
+}
+.comment_area .single_comment_area .comment-wrapper {
+    margin-bottom: 30px;
+}
+.comment_area .single_comment_area .comment-wrapper .comment-author {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 20px;
+    flex: 0 0 20px;
+    max-width: 20px;
+    width: 20px;
+    /*height: 70px;*/
+    border-radius: 50%;
+    margin-right: 20px;
+}
+@media only screen and (max-width:767px) {
+    .comment_area .single_comment_area .comment-wrapper .comment-author {
+        margin-right: 20px;
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 40px;
+        flex: 0 0 40px;
+        max-width: 40px;
+        width: 40px;
+        height: 40px;
+    }
+}
+.comment_area .single_comment_area .comment-wrapper .comment-author img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.comment_area .single_comment_area .comment-wrapper .comment-content {
+    -webkit-box-flex: 0;
+    -ms-flex: 1;
+    flex: 1;
+}
+.comment_area .single_comment_area .comment-wrapper .comment-content .comment-date {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #d1bb95;
+}
+.comment_area .single_comment_area .comment-wrapper .comment-content h5 {
+    font-size: 18px;
+    margin: 5px 0;
+}
+@media only screen and (max-width:767px) {
+    .comment_area .single_comment_area .comment-wrapper .comment-content h5 {
+        font-size: 16px;
+    }
+}
+@media only screen and (max-width:767px) {
+    .comment_area .single_comment_area .comment-wrapper .comment-content p {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+}
+.comment_area .single_comment_area .comment-wrapper .comment-content a {
+    min-width: 80px;
+    height: 30px;
+    border: 1px solid #ebebeb;
+    line-height: 28px;
+    font-size: 12px;
+    text-align: center;
+    color: #191919;
+    display: inline-block;
+    margin-right: .5rem;
+}
+.comment_area .single_comment_area .comment-wrapper .comment-content a:hover {
+    border-color: #191919;
+    color: #ffffff;
+    background-color: #191919;
+}
+@media only screen and (max-width:767px) {
+    .comment_area .single_comment_area .comment-wrapper .comment-content a {
+        margin: 5px 0;
+    }
+}
+
+.single_comment_area ol li.single_comment_area {
+    margin-left: 20px;
+}
+.single_comment_area ol li.single_comment_area::after {
+    display: none;
+}
+@media only screen and (max-width:767px) {
+    .single_comment_area ol li.single_comment_area {
+        margin-left: 40px;
+    }
+}
+.single_comment_area ol li.single_comment_area .comment-wrapper .comment-author {
+    margin-right: 30px;
+}
+@media only screen and (max-width:767px) {
+    .single_comment_area ol li.single_comment_area .comment-wrapper .comment-author {
+        margin-right: 15px;
+    }
+}
+
+/* :: 13.0 Leave A Reply Area CSS */
+.leave-comment-area {
+    /*position: relative;
+    z-index: 300;
+    border-top: 1px solid $border-color;
+    padding-top: 50px;*/
+}
+.leave-comment-area h4 {
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+.leave-comment-area form .form-control {
+    width: 80%;
+    /*height: 50px;*/
+    border: 1px solid #ebebeb;
+    font-size: 14px;
+    color: #a6a6a6;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    border-radius: 0;
+    -webkit-transition-duration: 500ms;
+    transition-duration: 500ms;
+}
+.leave-comment-area form .form-control:focus {
+    box-shadow: none;
+    border-color: #d1bb95;
+}
+.leave-comment-area form textarea.form-control {
+    width: 80%;
+    height: 120px;
+}
+
+.leave-comment-area form .form-control.chkbx{
+    width: 15px;
+    height: 15px;
+    padding: 0;
+    margin-right: 1em;
+    float: left;    
+}
+
+.leave-comment-area form .form-control.chkbx + label{
+    float: left;
+    width: 50%;
+    display: inline;
+    color: #a6a6a6;
+    margin-top: 2px; 
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}
+
+.leave-comment-area form .form-control, .leave-comment-area form textarea.form-control{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #a6a6a6;
+}
+
+.leave-comment-area form .form-control::placeholder, 
+.leave-comment-area form textarea.form-control::placeholder{
+    color: #a6a6a6;
+}
+
+.leave-comment-area form button[type="submit"]
+{
+    min-width: 180px;
+    height: 40px;
+    border: 1px solid #ebebeb;
+    line-height: 100%;
+    font-size: 14px;
+    text-align: center;
+    color: #191919;
+    display: inline-block;
+    cursor: pointer;
+}
+
+/* :: 18.0 Popup CSS */
+.popup__bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 0; /* Скрываем фон и сам попап*/
+    pointer-events: none; /* Запрещаем ему быть целью событий */
+    transition: 0.5s all;
+    z-index: 200;
+}
+
+.popup__bg.active { /* При добавлении класса 'active'*/
+    opacity: 1; /* Показываем фон и попап*/
+    pointer-events: all; /* Возвращаем события*/
+    transition: 0.5s all;
+}
+
+.leave-comment-area {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0); /* Центрируем и масштабируем в 0 само окно*/
+    background: #ffffff;
+    width: 680px;
+    padding: 40px 25px;
+    transition: 0.5s all;
+    z-index: 1000;
+}
+
+.leave-comment-area.active { /* При добавлении класса 'active'*/
+    transform: translate(-50%, -50%) scale(1); /* Так же центрируем и плавно увеличиваем */
+    transition: 0.5s all;
+}
+
+.close-popup {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 1.6em;
+}
+
+.close-popup:hover, .close-popup:focus {
+    font-size: 1.6em;
+}
+
+.form-res-block {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0); /* Центрируем и масштабируем в 0 само окно*/
+    background: #ffffff;
+    width: 680px;
+    padding: 40px 25px;
+    transition: 0.5s all;
+    z-index: 300;
+}
+
+.form-res-block.active {
+    transform: translate(-50%, -50%) scale(1); /* Так же центрируем и плавно увеличиваем */
+    transition: 0.5s all;
+}
